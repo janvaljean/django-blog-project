@@ -1,0 +1,17 @@
+django django-admin startproject blogapp
+cd blogapp
+python manage.py runserver
+python -m venv env --> #!Venv-python sanal env. projeyi her projenin ihtiyac duydugu sanal proje. paketler sadece bu env. baska bilgisayarlarda calisir
+"env/Scripts/activate"
+pip install django
+python manage.py startapp blog   --> app created named blog
+blogapp/settings.py --> in installed_apps  name 'blog'  can be added--> in blog/apps.py  you can see name 'blog'
+blog/ new file urls.py created. Local urls.py --> urlspattern[xxx]
+###from django.urls import path
+from . import views
+
+
+urlpatterns = [
+    path('' , views.index),
+]
+views.py added new funk because of urls.py
