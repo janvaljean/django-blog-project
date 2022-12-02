@@ -15,3 +15,12 @@ urlpatterns = [
     path('' , views.index),
 ]
 views.py added new funk because of urls.py
+main urls.py include added -->  urls goes views , views response http func
+blog/templates/blog dic created --> App_dir true all of templates of apps searched .we have to create special blog/index.html. Now django knows which index.html file
+my app can reach through the views(render func) to templates/index.thml 
+blog-details.html is static,because it use in  views.py/ render an id and  it was  added in html file with 2 curlybraces {{ id }}
+global template and base.html created 
+{%block content and endblock%} added
+local templates fixed as regards global template
+settings.py fixed new template added
+titles of templates changed dynamics
