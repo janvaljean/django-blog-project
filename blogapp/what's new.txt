@@ -25,3 +25,7 @@ local templates fixed as regards global template
 settings.py fixed new template added
 titles of templates changed dynamics
 blog/static file created and style.css added then in base.html %load static % fixed
+settings main static added
+img and css loaded
+static directiory changed
+in html files css and imp static loaded --> blog/static/css and static/css
